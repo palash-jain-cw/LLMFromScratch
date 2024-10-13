@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LLMFromScratch"
+version = "0.0.1"
+description = "This project contains the utilieties and functions necessary for extracting key phrases from text"
+requires-python = ">=3.10"
+dependencies = ["mlx", "ipykernel", "tiktoken"]
+
+[tool.setuptools]
+py-modules = ["src"]
