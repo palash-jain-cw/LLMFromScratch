@@ -1,2 +1,2 @@
 # LLMFromScratch
-Training a Large Language Model from Scratch
+This Repository contains the code to create a Large Language Model based on the Decoder only Transformer Architecture from scratch.
